@@ -1,37 +1,29 @@
-Are there any notable differences between states/cities/years? 
-Visualize the differences (or similarities) that you can find.
-
-Kolommen: 
-date, state, city_or_county
-en alles behalve: 
+Standaard kolommen:
+alles behalve: 
 incident_url, fields_missing, congressional_district, n_guns_involved, sources, state_house_district, state_senate_district
 
+
+
+Are there any notable differences between states/cities/years? 
+Visualize the differences (or similarities) that you can find.
+kolommen: 
+hoofd: date, state, city_or_county
+voor vergelijking: standaard kolommen 
 
 
 
 What are the patterns you discovered that you suspect could be interesting?
-
 kolommen:
-alles behalve: 
-incident_url, fields_missing, congressional_district, n_guns_involved, sources, state_house_district, state_senate_district
-
-
+standaard kolommen
 
 
 
 Does the data contain any unusual patterns that you did not expect?
-
 kolommen:
-alles behalve: 
-incident_url, fields_missing, congressional_district, n_guns_involved, sources, state_house_district, state_senate_district
-
-
-
-
+standaard kolommen
 
 
 
 How does the pattern between killer/victim look between various incidents over the years. Is it mostly family/relation or do we see more reported gang violence for instance?
-
 kolommen: 
-date, incident_id, n_killed, incident_url, incident_characteristics, notes, participant_name, participant_relationship
+standaard kolommen
