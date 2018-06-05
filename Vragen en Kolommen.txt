@@ -1,6 +1,6 @@
 Standaard kolommen:
 alles behalve: 
-incident_url, fields_missing, congressional_district, n_guns_involved, sources, state_house_district, state_senate_district
+source_url, incident_url, fields_missing, congressional_district, n_guns_involved, sources, state_house_district, state_senate_district
 
 
 
