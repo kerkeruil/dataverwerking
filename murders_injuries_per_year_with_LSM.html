@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="a2d2a788-f6d1-4a5a-8649-d2b7da5a4ff6"></div>
+        </div>
+        
+        <script type="application/json" id="f3cd25df-dbb7-4389-abad-06f6b6dc6077">
+          {"f1641c54-0382-46c0-a74d-dc2ede2cd767":{"roots":{"references":[{"attributes":{"callback":null,"data":{"counts":[12557,23002,13484,26967,15066,30580,15511,30703,15612,30147],"value":[12557,23002,13484,26967,15066,30580,15511,30703,15612,30147],"x":[["2014","Murders"],["2014","Injuries"],["2015","Murders"],["2015","Injuries"],["2016","Murders"],["2016","Injuries"],["2017","Murders"],["2017","Injuries"],["2018","Murders"],["2018","Injuries"]]},"selected":{"id":"d6bf7422-6fb7-4831-a81a-185c762de34e","type":"Selection"},"selection_policy":{"id":"b7e5a920-e2a7-44ec-9f1b-50f345ef425b","type":"UnionRenderers"}},"id":"8281067a-137e-456b-ba7d-99621c6db368","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"ed2a3e51-5bba-42a7-98a6-ed3e5cb41bf6","type":"VBar"},{"attributes":{"data_source":{"id":"8281067a-137e-456b-ba7d-99621c6db368","type":"ColumnDataSource"},"glyph":{"id":"e58f596b-84f5-47b9-af77-548771bbbf67","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"ed2a3e51-5bba-42a7-98a6-ed3e5cb41bf6","type":"VBar"},"selection_glyph":null,"view":{"id":"6b25f5b3-1340-4637-a68a-2fe6cfb5bb1c","type":"CDSView"}},"id":"659411c8-9491-454f-aef4-db8944996579","type":"GlyphRenderer"},{"attributes":{},"id":"88ab95f0-4648-4f71-9f33-79a35c375f26","type":"LinearScale"},{"attributes":{"plot":null,"text":"Murders/Injuries per Year"},"id":"1d7b924a-a8b2-47ee-8a36-193dff864616","type":"Title"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"7bc2b62b-c521-4410-b0b1-48ba35c226c3","type":"CategoricalColorMapper"}},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"e58f596b-84f5-47b9-af77-548771bbbf67","type":"VBar"},{"attributes":{"end":2,"factors":["Murders","Injuries"],"palette":["crimson","darkorange"],"start":1},"id":"7bc2b62b-c521-4410-b0b1-48ba35c226c3","type":"CategoricalColorMapper"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"34104829-afd5-4ebf-90da-9628d06784f5","type":"HoverTool"}]},"id":"5dd76d85-e44e-4b8e-ae52-582c95d492c3","type":"Toolbar"},{"attributes":{},"id":"54aa64cb-e79a-465b-9662-16c4c5da9694","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"start":0},"id":"2a212f8b-8e9c-416c-b29e-a76bb08d90a5","type":"DataRange1d"},{"attributes":{},"id":"b7e5a920-e2a7-44ec-9f1b-50f345ef425b","type":"UnionRenderers"},{"attributes":{},"id":"9ad30432-0fe7-46e6-8a85-35017c61eebf","type":"BasicTickFormatter"},{"attributes":{"callback":null,"renderers":"auto","tooltips":[["value","@value"]]},"id":"34104829-afd5-4ebf-90da-9628d06784f5","type":"HoverTool"},{"attributes":{},"id":"48ee719e-2789-4e5f-bc90-040ec5030b4c","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"7309337d-7f8b-4df9-830d-06a885814377","subtype":"Figure","type":"Plot"},"ticker":{"id":"48ee719e-2789-4e5f-bc90-040ec5030b4c","type":"BasicTicker"}},"id":"73991cdb-eb4a-4d58-812c-0f1989399449","type":"Grid"},{"attributes":{"below":[{"id":"6f3f7185-9364-4d85-9590-666c39009f50","type":"CategoricalAxis"}],"left":[{"id":"fb20c2f7-dbe5-4475-b39b-18f71e7a2933","type":"LinearAxis"}],"plot_height":250,"renderers":[{"id":"6f3f7185-9364-4d85-9590-666c39009f50","type":"CategoricalAxis"},{"id":"ca6f74e3-401f-478e-ab05-15f6f45738ef","type":"Grid"},{"id":"fb20c2f7-dbe5-4475-b39b-18f71e7a2933","type":"LinearAxis"},{"id":"73991cdb-eb4a-4d58-812c-0f1989399449","type":"Grid"},{"id":"659411c8-9491-454f-aef4-db8944996579","type":"GlyphRenderer"}],"title":{"id":"1d7b924a-a8b2-47ee-8a36-193dff864616","type":"Title"},"toolbar":{"id":"5dd76d85-e44e-4b8e-ae52-582c95d492c3","type":"Toolbar"},"x_range":{"id":"928b8103-bb18-46b9-a457-8ab771732c88","type":"FactorRange"},"x_scale":{"id":"08a378b7-0dcb-45f9-97b6-9698ca3f22ae","type":"CategoricalScale"},"y_range":{"id":"2a212f8b-8e9c-416c-b29e-a76bb08d90a5","type":"DataRange1d"},"y_scale":{"id":"88ab95f0-4648-4f71-9f33-79a35c375f26","type":"LinearScale"}},"id":"7309337d-7f8b-4df9-830d-06a885814377","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"313e8b2e-6f8c-4103-bacd-7d929560d94a","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"9ad30432-0fe7-46e6-8a85-35017c61eebf","type":"BasicTickFormatter"},"plot":{"id":"7309337d-7f8b-4df9-830d-06a885814377","subtype":"Figure","type":"Plot"},"ticker":{"id":"48ee719e-2789-4e5f-bc90-040ec5030b4c","type":"BasicTicker"}},"id":"fb20c2f7-dbe5-4475-b39b-18f71e7a2933","type":"LinearAxis"},{"attributes":{"callback":null,"factors":[["2014","Murders"],["2014","Injuries"],["2015","Murders"],["2015","Injuries"],["2016","Murders"],["2016","Injuries"],["2017","Murders"],["2017","Injuries"],["2018","Murders"],["2018","Injuries"]],"range_padding":0.1},"id":"928b8103-bb18-46b9-a457-8ab771732c88","type":"FactorRange"},{"attributes":{"formatter":{"id":"54aa64cb-e79a-465b-9662-16c4c5da9694","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"7309337d-7f8b-4df9-830d-06a885814377","subtype":"Figure","type":"Plot"},"ticker":{"id":"313e8b2e-6f8c-4103-bacd-7d929560d94a","type":"CategoricalTicker"}},"id":"6f3f7185-9364-4d85-9590-666c39009f50","type":"CategoricalAxis"},{"attributes":{},"id":"08a378b7-0dcb-45f9-97b6-9698ca3f22ae","type":"CategoricalScale"},{"attributes":{"source":{"id":"8281067a-137e-456b-ba7d-99621c6db368","type":"ColumnDataSource"}},"id":"6b25f5b3-1340-4637-a68a-2fe6cfb5bb1c","type":"CDSView"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"7309337d-7f8b-4df9-830d-06a885814377","subtype":"Figure","type":"Plot"},"ticker":{"id":"313e8b2e-6f8c-4103-bacd-7d929560d94a","type":"CategoricalTicker"}},"id":"ca6f74e3-401f-478e-ab05-15f6f45738ef","type":"Grid"},{"attributes":{},"id":"d6bf7422-6fb7-4831-a81a-185c762de34e","type":"Selection"}],"root_ids":["7309337d-7f8b-4df9-830d-06a885814377"]},"title":"Bokeh Application","version":"0.12.16"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('f3cd25df-dbb7-4389-abad-06f6b6dc6077').textContent;
+                  var render_items = [{"docid":"f1641c54-0382-46c0-a74d-dc2ede2cd767","elementid":"a2d2a788-f6d1-4a5a-8649-d2b7da5a4ff6","modelid":"7309337d-7f8b-4df9-830d-06a885814377"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
