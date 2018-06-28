@@ -1,0 +1,100 @@
+
+
+.div1 {
+	height: 39.6vmin;
+	float: left;
+	width: 95.1vmin;
+	margin-bottom: 30%;
+	margin-left: 25%;
+	overflow:auto;
+	display:inline;
+	border-style:solid;
+}
+
+.div2 {
+	height: 39.6vmin;
+	float: left;
+	width: 95.1vmin;
+	margin-bottom: 30%;
+	margin-left: 25%;
+	overflow:auto;
+	display:inline;
+	border-style:solid;
+}
+
+
+.bigger {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #660000;
+}
+
+.div3 {
+	height: 32.9vmax;
+	float: left;
+	width: 46vmax;
+	margin-left: 25.5%;
+	border-style:solid;
+	margin-bottom: 30%;
+	
+}
+
+.div4 {
+	height: 21.9vmax;
+	float: left;
+	width: 46.8vmax;
+	margin-left: 25%;
+	border-style:solid;
+	margin-bottom: 30%;
+}
+
+
+
+
+.div5 {
+	height: 40.3vmax;
+	float: left;
+	width: 61.6vmax;
+	margin-left: 17.5%;
+	margin-right: 20%;
+	display: inline;
+	margin-bottom: 30%;
+	border-style:solid;
+}
+
+.div6 {
+	height: 47vmax;
+	float: left;
+	width: 111vmin;
+	margin:auto;
+	display: inline;
+	margin-left: 21%;
+	margin-bottom: 30%;
+	border-style:solid;
+	
+}
+
+.div7 {
+	height: 47vmax;
+	float: left;
+	width: 142.7vmin;
+	display: inline;
+	margin-left: 13.5%;
+	margin-bottom: 30%;
+	border-style:solid;
+}
+
+
+
+.div8 {
+	height: 32.9vmax;
+	float: left;
+	width: 46vmax;
+	margin-left: 25.5%;
+	border-style:solid;
+	margin-bottom: 30%;
+	
+}
