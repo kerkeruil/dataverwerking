@@ -20,6 +20,7 @@
 	overflow:auto;
 	display:inline;
 	border-style:solid;
+	margin-top: 10%;
 }
 
 
@@ -73,7 +74,7 @@ body {
 	margin:auto;
 	display: inline;
 	margin-left: 21%;
-	margin-bottom: 30%;
+	margin-bottom:30%;
 	border-style:solid;
 	
 }
